@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9575E271-5F90-4511-982C-656898F1768B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6BB293BC-4574-4AC4-9D93-7D32701CFB50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{97CAC93D-9B96-4FDC-9590-19066132AD5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiksGame.Core", "src\JiksGame.Core\JiksGame.Core.csproj", "{84391394-BBDE-4FB7-BDCB-D4511FC9C928}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiksGame.Chat.Domain", "src\JiksGame.Chat.Domain\JiksGame.Chat.Domain.csproj", "{3F0809E2-E444-4D98-B968-F6ABF0130BE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JiksGame.Chat.Server", "src\JiksGame.Chat.Server\JiksGame.Chat.Server.csproj", "{7991AE87-9AE0-4669-B5A7-D6653C759E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JiksGame.Chat.Infrastructure", "JiksGame.Chat.Infrastructure\JiksGame.Chat.Infrastructure.csproj", "{7D9B3F8D-5815-40AD-B810-21EDAE9196BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jiksGame.Chat.Client", "jiksGame.Chat.Client\jiksGame.Chat.Client.csproj", "{DC23F607-3591-474C-8BBA-E575335E3ED3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84391394-BBDE-4FB7-BDCB-D4511FC9C928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84391394-BBDE-4FB7-BDCB-D4511FC9C928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84391394-BBDE-4FB7-BDCB-D4511FC9C928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84391394-BBDE-4FB7-BDCB-D4511FC9C928}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F0809E2-E444-4D98-B968-F6ABF0130BE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F0809E2-E444-4D98-B968-F6ABF0130BE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F0809E2-E444-4D98-B968-F6ABF0130BE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F0809E2-E444-4D98-B968-F6ABF0130BE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7991AE87-9AE0-4669-B5A7-D6653C759E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7991AE87-9AE0-4669-B5A7-D6653C759E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7991AE87-9AE0-4669-B5A7-D6653C759E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7991AE87-9AE0-4669-B5A7-D6653C759E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9B3F8D-5815-40AD-B810-21EDAE9196BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9B3F8D-5815-40AD-B810-21EDAE9196BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9B3F8D-5815-40AD-B810-21EDAE9196BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9B3F8D-5815-40AD-B810-21EDAE9196BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC23F607-3591-474C-8BBA-E575335E3ED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC23F607-3591-474C-8BBA-E575335E3ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC23F607-3591-474C-8BBA-E575335E3ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC23F607-3591-474C-8BBA-E575335E3ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{84391394-BBDE-4FB7-BDCB-D4511FC9C928} = {9575E271-5F90-4511-982C-656898F1768B}
+		{3F0809E2-E444-4D98-B968-F6ABF0130BE7} = {97CAC93D-9B96-4FDC-9590-19066132AD5D}
+		{7991AE87-9AE0-4669-B5A7-D6653C759E0A} = {97CAC93D-9B96-4FDC-9590-19066132AD5D}
+		{7D9B3F8D-5815-40AD-B810-21EDAE9196BF} = {97CAC93D-9B96-4FDC-9590-19066132AD5D}
+		{DC23F607-3591-474C-8BBA-E575335E3ED3} = {97CAC93D-9B96-4FDC-9590-19066132AD5D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F7D2DA9-789F-41EB-BA78-8CE3C7F7DC0D}
+	EndGlobalSection
+EndGlobal
